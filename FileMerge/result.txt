@@ -1,0 +1,6519 @@
+{
+  "id": "7f6cf262-e396-434b-90de-e6412da593c5",
+  "name": "225lab",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "CSE225 lab is offered as credit lab. You just click and take through SIMS"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522178400,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "fa7760e0-678f-44cf-9fd5-444ddccb9c28",
+    "data": [
+      {
+        "text": "CSE225 Lab is non credit for the batch starting from 143. I\u0027m from 142 and I have to retake this course with a credit lab. So, how can I do this SIR?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522178400
+  }
+]{
+  "id": "568a7704-fb4c-4d5e-9b03-73fa74e9aaae",
+  "name": "498_as_499",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "No"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523177726,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "02d6be47-18ff-44a1-9b45-5935f8276eaa",
+    "data": [
+      {
+        "text": "Can we do CSE498 instead of ",
+        "userDefined": false
+      },
+      {
+        "text": "499",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "A\u0026",
+        "userDefined": false
+      },
+      {
+        "text": "499",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "B,if we are from old curriculum?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523177726
+  }
+]{
+  "id": "cb6f0a66-9f70-41f9-b048-d52633a4adbc",
+  "name": "499_299_both_1sem",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "No."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523177764,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "b7bab739-025a-4a21-acae-fc2cda46a6db",
+    "data": [
+      {
+        "text": "can i take ",
+        "userDefined": false
+      },
+      {
+        "text": "299",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "499 in",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " same semester",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523177764
+  },
+  {
+    "id": "6f378ea9-b2af-4168-ab08-6fe73c1e9186",
+    "data": [
+      {
+        "text": "can we take CSE299 and CSE499A/B on the same semester",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523177764
+  }
+]{
+  "id": "4571e5a3-66d9-46ce-bffb-8dd6c8e159b6",
+  "name": "499_prerequsite_without",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "No courses can be taken without prerequisite."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523177792,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "e33327cd-3ce2-416e-b907-8d9bfb6479e5",
+    "data": [
+      {
+        "text": "can i take any course without doing pre requisite?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521031629
+  },
+  {
+    "id": "9d22e2d5-0ed1-49a9-b214-457add20aff2",
+    "data": [
+      {
+        "text": "can i take any course without doing prerequisite?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521031629
+  },
+  {
+    "id": "ac94a49f-b4c1-40d0-ba33-2bf7f1fdde35",
+    "data": [
+      {
+        "text": "can I take cse499A without done ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " prerequisites?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523177792
+  }
+]{
+  "id": "f3df5b51-ef2a-459b-a2b8-90e228676656",
+  "name": "Academic Calendar",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "please visit with the link of \nhttp://www.northsouth.edu/academic/academic-calendar/"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "please visit with the link of \\n http://www.northsouth.edu/academic/academic-calendar/"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523986015,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "8177ffc7-0f14-407f-a098-85b180018d5c",
+    "data": [
+      {
+        "text": "latest academic calender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523986015
+  },
+  {
+    "id": "853155e9-fbb8-4e7f-9a55-5b5f29a23d63",
+    "data": [
+      {
+        "text": "academic calender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523986015
+  }
+]{
+  "id": "9e92b8c7-2ee9-42f4-b2ee-5d521ae8cae7",
+  "name": "admission_auto_canc",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Absent of consecutive two semester"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523986383,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "e382db89-34cd-4716-93c2-27a8d9bce090",
+    "data": [
+      {
+        "text": "how many days absence considered as cancel admission",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522177443
+  },
+  {
+    "id": "d350d4c1-c8fa-456e-a043-81f51f53ff25",
+    "data": [
+      {
+        "text": "kotodin class na korle bhorti batil hoe ",
+        "userDefined": false
+      },
+      {
+        "text": "jai",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " nsute",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523986383
+  }
+]{
+  "id": "4c53ab3f-8ae9-4cd9-b104-261ac01851ce",
+  "name": "admission_canc",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Have to apply with prescribed form initiated by NSU Controller Office"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522177358,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "28519c25-2212-42e9-a6b0-4bd745c0de1f",
+    "data": [
+      {
+        "text": "how to cancel the admission ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522177358
+  },
+  {
+    "id": "0887a317-525a-40ef-86e9-ce317a235b8a",
+    "data": [
+      {
+        "text": "Nsute bhorti batil korte ki kora lagbe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522177358
+  }
+]{
+  "id": "3ee083fb-c2f7-4fc7-91f6-31cc04c394bd",
+  "name": "Advising Schedule",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "70686dd5-ba7a-4116-a349-7a6f2a636bb0",
+          "required": false,
+          "name": "id",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Not decided Yet."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514041580,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "8f5e0caf-6ccc-46ea-9e04-a9b96b9a5073",
+    "data": [
+      {
+        "text": "When is my advising?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "adc28590-bacc-4555-8084-e1b0b33e8fe9",
+    "data": [
+      {
+        "text": "When advising will start?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]{
+  "id": "90072c81-39a8-4407-8550-8ba3127c9f50",
+  "name": "advising",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Advising is a process for enrolling courses to students. The date of advising publishes in the NSU website Notice Board. \nAdvising link : https://rds3.northsouth.edu/index.php/welcome/enter_login\nNSU Notice Board : http://www.northsouth.edu/nsu-announcements/"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Advising is a process for enrolling courses to students. The date of advising publishes in the NSU website Notice Board. \\n\nAdvising link : https://rds3.northsouth.edu/index.php/welcome/enter_login\\n\nNSU Notice Board : http://www.northsouth.edu/nsu-announcements/ \\n"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524029466,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "db351105-f007-463c-a4cb-55b36e70cc60",
+    "data": [
+      {
+        "text": "how to do advising",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524029466
+  },
+  {
+    "id": "d3a35331-fe55-4030-9a20-6736e7be58e0",
+    "data": [
+      {
+        "text": "tell me about advising system of NSU",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524029466
+  },
+  {
+    "id": "b21354e4-06eb-41c3-8a41-dc1f93b61148",
+    "data": [
+      {
+        "text": "what is advising",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524029466
+  },
+  {
+    "id": "2a201d01-e783-49bf-852a-3b3cb8e36f3b",
+    "data": [
+      {
+        "text": "advising date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524029466
+  },
+  {
+    "id": "82fcd533-ccf0-4aee-bd17-c324aabb5250",
+    "data": [
+      {
+        "text": "advising help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524029466
+  }
+]{
+  "id": "a192ee81-90e4-4a0d-a66a-1661e262b335",
+  "name": "AskName",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "ECEwiki"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524412284,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "5d3def8a-32a8-4a3c-aba0-2555c0c884de",
+    "data": [
+      {
+        "text": "what is your name ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524412284
+  }
+]{
+  "id": "179a7b2b-61b4-45ac-8580-5432f69b9c20",
+  "name": "bio103",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "yes"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522178073,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "add7c7a0-e692-4a62-9a7c-539110ceb17a",
+    "data": [
+      {
+        "text": "Does BIO103 count as open elective if we take both PBH101 \u0026 BIO103?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522178073
+  }
+]{
+  "id": "6287c641-6a16-48c0-b9b1-94ccfbc0b524",
+  "name": "bye",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you for staying with me :) Take care !"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514444739,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "5b3d26e3-0fe1-45c6-b292-73ff24e06663",
+    "data": [
+      {
+        "text": "good bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514444739
+  },
+  {
+    "id": "4556383b-e15c-4a3a-97c8-5b60b0e6de15",
+    "data": [
+      {
+        "text": "vag",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514444739
+  },
+  {
+    "id": "6debcc43-411f-429a-8186-67ac2e09e145",
+    "data": [
+      {
+        "text": "tata",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514444739
+  },
+  {
+    "id": "7ddfd1b3-ab5d-410b-8749-1aef976ad26c",
+    "data": [
+      {
+        "text": "bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514444739
+  }
+]{
+  "id": "db3d8bd0-5bcc-42e7-8220-d2ba0afe7f11",
+  "name": "Can elective trail courses, like CSE338, be taken as open elective?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Yes."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523710791,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "090bc14f-c806-4d99-902d-14da62b0a054",
+    "data": [
+      {
+        "text": "Can elective trail courses, like CSE338, be taken as open elective?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521031315
+  },
+  {
+    "id": "4552af17-dfbb-4a98-9825-ed278a13327b",
+    "data": [
+      {
+        "text": "May I take cse338 as an open elective?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523710791
+  }
+]{
+  "id": "c491c61f-383e-4409-a24f-696ae48f407a",
+  "name": "change_faculty",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please change your sections with faculty through SIMS"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522177663,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "846e5aa0-5fbb-4ea3-93a7-1a9c07fe9238",
+    "data": [
+      {
+        "text": "What is the procedure of changing faculty?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522177663
+  }
+]{
+  "id": "9e4bc493-8f36-4e2f-815d-2d2e4dc28d5b",
+  "name": "check_major",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please check in your respective curriculum"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523717379,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "bf7537fb-45ec-42ae-a594-48891c97eafe",
+    "data": [
+      {
+        "text": "VLSI ",
+        "userDefined": false
+      },
+      {
+        "text": "major",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " course ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523717379
+  },
+  {
+    "id": "c4a56639-1553-46a7-81aa-d7cb98c1ed33",
+    "data": [
+      {
+        "text": "EEE311 ",
+        "userDefined": false
+      },
+      {
+        "text": "major",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " course ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523717379
+  },
+  {
+    "id": "6d3f9e83-2465-4070-a221-6270f35c2f6b",
+    "data": [
+      {
+        "text": "Is it major course ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522176776
+  }
+]{
+  "id": "029bbaa4-4ac3-45c4-8cca-9a6b33b4ff7f",
+  "name": "club",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "No"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521042087,
+  "fallbackIntent": false,
+  "events": []
+}{
+  "id": "4c7196a2-caaf-4179-ba89-674fef6b6598",
+  "name": "Club_info",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Check this link\nhttp://ece.northsouth.edu/nsu-activities-and-services/"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Check this link \\n http://ece.northsouth.edu/nsu-activities-and-services/"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523992668,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "6d3a81c2-8c93-41e6-89f6-2e5bbb4e18ac",
+    "data": [
+      {
+        "text": "what is computer club",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523992668
+  },
+  {
+    "id": "462072d5-35fd-4ff5-8d05-54ae5e21ebe1",
+    "data": [
+      {
+        "text": "what is Problem solver Community",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523992668
+  },
+  {
+    "id": "e632cb50-40cc-4233-a044-cee7eb949772",
+    "data": [
+      {
+        "text": "what is ieee",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523992668
+  },
+  {
+    "id": "6b63f67f-ed04-429c-adbc-978cbae0fd4f",
+    "data": [
+      {
+        "text": "What is acm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523992668
+  }
+]{
+  "id": "8bf8af97-bac0-4d0a-af28-a9c2c7d0389a",
+  "name": "club_join",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please consult the respective faculty adviser or Club President"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523769868,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "ded35c16-533f-4411-a9e9-5c2b2d2efe42",
+    "data": [
+      {
+        "text": "how to join in ",
+        "userDefined": false
+      },
+      {
+        "text": "a club",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523769868
+  },
+  {
+    "id": "fdc10396-8b0a-4c24-936c-4f6a33839e15",
+    "data": [
+      {
+        "text": "procedure of joining a club",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523769868
+  }
+][
+  {
+    "id": "179601fa-406e-4b76-9a8b-0edd5ec57471",
+    "data": [
+      {
+        "text": " is it necessary to join any club?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521042087
+  },
+  {
+    "id": "ebb52ee0-45cc-4249-a356-df61cb9cc094",
+    "data": [
+      {
+        "text": "I am following new curriculum, is it necessary to join any club?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521042087
+  }
+]{
+  "id": "95df6452-283b-4cf0-ae19-3583494e3703",
+  "name": "Course.Pre-requisites",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "coursePre",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0b3a8db2-2151-45cb-bfd8-c4a309529738",
+          "required": true,
+          "dataType": "@Course",
+          "name": "Course",
+          "value": "$Course",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter the course code correctly."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, I am unable to provide information right now. Please try again."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524064381,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "f4c5c45b-14fd-4d11-a2c9-2ab980ec0d96",
+    "data": [
+      {
+        "text": "@Course:Course course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523718958
+  },
+  {
+    "id": "6706be61-f2c8-4ce2-85d0-c6a61c17f1b8",
+    "data": [
+      {
+        "text": "What i need to do to get @Course:Course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523713453
+  },
+  {
+    "id": "49149ebe-bf05-4b40-9979-688a4cbb1caf",
+    "data": [
+      {
+        "text": "what are the requirement to take @Course:Course?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523185336
+  },
+  {
+    "id": "8e3dfa9b-6f77-4b6f-b23b-146ebcca1ee4",
+    "data": [
+      {
+        "text": "What courses need to complete to take @Course:Course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523185582
+  },
+  {
+    "id": "27b12fff-3eb0-4cde-a4f1-055e1aa8bfa0",
+    "data": [
+      {
+        "text": "What is the prerequisite for @Course:Course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523185336
+  },
+  {
+    "id": "85e80c18-65d0-4239-b61e-63cf16c84884",
+    "data": [
+      {
+        "text": "Tell me about @Course:Course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523190499
+  },
+  {
+    "id": "100d648f-bf1f-4322-b6e6-43811498717a",
+    "data": [
+      {
+        "text": "Is @Course:Course  lab credit or non credit ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523719779
+  },
+  {
+    "id": "3e2553d3-482f-415a-86f9-2fa55314f272",
+    "data": [
+      {
+        "text": "What is the pre-requisite for @Course:Course?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523185336
+  },
+  {
+    "id": "74a8b70f-bf20-48b2-a112-b017b0882b7e",
+    "data": [
+      {
+        "text": "@Course:Course?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523185336
+  },
+  {
+    "id": "4c02ef95-8b91-4658-8251-1c47fd7e9180",
+    "data": [
+      {
+        "text": "I want to know the prerequisite for @Course:Course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523185336
+  }
+]{
+  "id": "187c3096-601a-4e87-9805-27ba14860754",
+  "name": "course_analysis",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Course analysis is the part in which students may check their courses as per their respective curriculum and it may check any time before degree conferred."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524227980,
+  "fallbackIntent": false,
+  "events": []
+}{
+  "id": "407e6819-571e-450a-8263-40831c70983a",
+  "name": "course_analysis_paper",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Need to submit all of the documents, (Application form and  updated unofficial transcript)."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524227938,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "93c39be5-2b49-4f58-9db9-02253d7eab39",
+    "data": [
+      {
+        "text": "procedure of course analysis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524227938
+  },
+  {
+    "id": "d9c4e8b0-85e1-4760-b4ea-ceeaa4252afc",
+    "data": [
+      {
+        "text": "what papers i need to do course analysis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524227938
+  },
+  {
+    "id": "f90c1d64-cd90-4be4-adc5-b75a2dddcfe0",
+    "data": [
+      {
+        "text": "how to do course analysis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524227938
+  },
+  {
+    "id": "b43bdede-e2de-407c-ab38-a66a7efa72ce",
+    "data": [
+      {
+        "text": "system of course analysis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524227938
+  }
+][
+  {
+    "id": "5c0bf4e2-79a8-45ce-a22e-83c979b51af0",
+    "data": [
+      {
+        "text": "what is course analysis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524227980
+  },
+  {
+    "id": "487489bf-c705-43fb-9203-8b0d2d5317f6",
+    "data": [
+      {
+        "text": "course analysis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524227980
+  }
+]{
+  "id": "eef79d98-356e-4167-b162-b40ed60dd841",
+  "name": "course_bring",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Only update unofficial transcript and excel students analysis as per given format, please visit the link\nhttp://ece.northsouth.edu/resources/forms/"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Only update unofficial transcript and excel students analysis as per given format, please visit the link \\nhttp://ece.northsouth.edu/resources/forms/"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524660999,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "f312fda7-ed52-4472-82c7-04d6a515a211",
+    "data": [
+      {
+        "text": "relevant documents for course analysis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524660999
+  },
+  {
+    "id": "3bbb814e-2967-4667-b681-75f74c5272e9",
+    "data": [
+      {
+        "text": "What papers do I need to do course analysis ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521035633
+  },
+  {
+    "id": "daf893c7-3a7a-405d-8060-c71cc4fedaf2",
+    "data": [
+      {
+        "text": "What should I bring for my course analysis?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521035633
+  }
+]{
+  "id": "aae0c595-3826-4261-b769-f683ccdfb0c6",
+  "name": "course_name",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Any changes, you will find at the ECE notice board or contact at ECE dept."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522178131,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "0ce9e5f2-066b-4802-a05e-82ba7117f76a",
+    "data": [
+      {
+        "text": "The name of my course has changed and from where I can find it\u0027s current name?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522178131
+  }
+]{
+  "id": "f8c7f618-11d5-4583-a38f-0deabc78914a",
+  "name": "credit15+",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "If you have CGPA 3.5 and above you can take 15 credits, please contact with Chair, ECE"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522178238,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "b3d65cfc-5511-46a8-b266-039d8b597659",
+    "data": [
+      {
+        "text": "How can i take 15+ credit in a semester?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522177265
+  }
+]{
+  "id": "092af223-30d5-4c7e-9a85-d1f79ac40625",
+  "name": "cur_best",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please consult with your assigned mentor or Chair, ECE"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521041858,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "6c3e8ae3-4cfc-4c55-8636-9a6b07dc20d0",
+    "data": [
+      {
+        "text": "how can we know which is the best path to follow?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521041858
+  }
+]{
+  "id": "b8cbb898-95ee-4936-aa28-637f5902a279",
+  "name": "cur_change",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please consult with your assigned mentor or Chair, ECE"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521042158,
+  "fallbackIntent": false,
+  "events": []
+}{
+  "id": "28336bf6-5e4e-4d34-88b1-febdf8068a5e",
+  "name": "cur_change_extra_course",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "At the time of course analysis you have to declare which one to keep and remove."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523717177,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "22d203c8-c0f0-470e-a35a-79a8be8651e7",
+    "data": [
+      {
+        "text": "what to do with extra courses after the curriculum change",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521042234
+  },
+  {
+    "id": "1ba800d7-a00e-45b8-9cde-d98db63975a3",
+    "data": [
+      {
+        "text": "I\u0027m from 141 batch and migrated to ",
+        "userDefined": false
+      },
+      {
+        "text": "130",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " credit curriculum (I have my migration letter), do I have to go through any procedure for extra courses I have done?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523717177
+  }
+]{
+  "id": "03a7086d-2829-4180-8c03-f634618134c2",
+  "name": "cur_change_how",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please submit the prescribed form supplied by ECE dept."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523717205,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "64af058a-0830-4793-bd79-e462476f9cfc",
+    "data": [
+      {
+        "text": "What is the procedure of changing ",
+        "userDefined": false
+      },
+      {
+        "text": "134",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " credit into ",
+        "userDefined": false
+      },
+      {
+        "text": "130",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " credit ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523717205
+  },
+  {
+    "id": "10fc51f9-560d-4707-ace2-bc8cd0a12d82",
+    "data": [
+      {
+        "text": "how to change old curriculum to new curriculum",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521042285
+  },
+  {
+    "id": "7e12e4c5-58e4-49ac-9775-d51196533056",
+    "data": [
+      {
+        "text": "how to change curriculum",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521042285
+  }
+]{
+  "id": "e65f6334-84d0-4381-919b-84bb58a82e1e",
+  "name": "cur_change_pro",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "collect the curriculum change form from dept."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521042610,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "bf7d64a9-a388-42e9-a2d3-9dc56e33f93b",
+    "data": [
+      {
+        "text": "where should i go for changing the curriculum",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521042610
+  },
+  {
+    "id": "c27e9427-a960-4481-aa14-632fe6b8b692",
+    "data": [
+      {
+        "text": "Do I need to apply an application for changing curriculum?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521042610
+  },
+  {
+    "id": "95c98b79-54bb-4c3f-9c31-9346ab0242ca",
+    "data": [
+      {
+        "text": "what to do to change the curriculum",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521042610
+  }
+][
+  {
+    "id": "fd29a7ef-8655-4e8e-a0ab-9bc1a248bdd6",
+    "data": [
+      {
+        "text": "old curriculum to new curriculum",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521042158
+  },
+  {
+    "id": "b0eac55c-e0ae-4838-99a1-419af0ba5088",
+    "data": [
+      {
+        "text": "new curriculum from old curriculum",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521042158
+  },
+  {
+    "id": "8f25045b-8efb-4cd5-a3d7-b0ecec3793e8",
+    "data": [
+      {
+        "text": "I am following new curriculum but I did many previous curriculum subject before introduction of new curriculum, what should I do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521042158
+  }
+]{
+  "id": "46f2f8cd-1903-43f5-a44f-2a9bf3051f39",
+  "name": "cur_check",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please check courses as per your respective courses and do course analysis at Program office"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523717694,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "b6354843-fc06-4b52-904f-801cb76b7710",
+    "data": [
+      {
+        "text": "how can i find my curriculum?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523717694
+  },
+  {
+    "id": "8ace8061-738a-424b-b77e-6cae8596040d",
+    "data": [
+      {
+        "text": "How can i sure that i\u0027m following old curriculum for BS-CSE ",
+        "userDefined": false
+      },
+      {
+        "text": "134",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " credit hours for 142 batch?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523717238
+  },
+  {
+    "id": "805378ca-c7d5-4561-b1d2-7120b742f487",
+    "data": [
+      {
+        "text": "how do i know my curriculum ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521042419
+  }
+]{
+  "id": "fe8252fd-0e1f-4ab8-ba32-551a6dc0858e",
+  "name": "cur_should",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please consult with your assigned mentor or Chair, ECE"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521041951,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "46ad3381-811b-486c-9ad5-004e341fc181",
+    "data": [
+      {
+        "text": "I am following new curriculum, Should I do HIS103,CSE299,EEE154?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521041951
+  }
+]{
+  "id": "5b823b15-9f9e-4a09-8ed1-d6dbd87600a6",
+  "name": "Days Description",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "MW- Monday \u0026 Wednesday, ST- Sunday \u0026 Tuesday, RA-Thursday \u0026 Saturday"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523718021,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "7078e75b-584d-4469-932d-8efa86c63011",
+    "data": [
+      {
+        "text": "What is MW?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "89dd8a0e-cf66-4f15-aa08-e5f9c5ab8a31",
+    "data": [
+      {
+        "text": "What is RA?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "23c3dec4-d27a-4a2c-8e20-9a43fa60bc1f",
+    "data": [
+      {
+        "text": "What is ST?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]{
+  "id": "451f62f9-ded0-437e-af4d-d207e128bac6",
+  "name": "Default Fallback Intent",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I didn\u0027t get that. Can you say it again?",
+            "I missed what you said. Say it again?",
+            "Sorry, could you say that again?",
+            "Sorry, can you say that again?",
+            "Can you say that again?",
+            "Sorry, I didn\u0027t get that.",
+            "Sorry, what was that?",
+            "One more time?",
+            "What was that?",
+            "Say that again?",
+            "I didn\u0027t get that.",
+            "I missed that."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}{
+  "id": "a13a0737-6da0-475a-a2d1-e4a59b60e9a5",
+  "name": "Default Welcome Intent",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Welcome to ECEwiki."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523980548,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}{
+  "id": "aa1a50d8-2884-4e82-b0ee-cb150f17cd0d",
+  "name": "degree_Analysis",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Degree Analysis is the last part and it must be done for the degree process."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524227568,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "fc5e7ac4-cf65-45fe-b4c6-bc6e5d4af803",
+    "data": [
+      {
+        "text": "degree analysis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524227510
+  },
+  {
+    "id": "67b89648-b413-4ad7-801b-c010e02f660e",
+    "data": [
+      {
+        "text": "what is degree analysis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524227510
+  }
+]{
+  "id": "4d88bb74-78a2-4a40-9ea5-c307298b55bb",
+  "name": "degree_bring",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Need to submit all the documents, (Application form with necessary dept clearance, Intend application, student course analysis, updated unofficial transcript, photograph and other papers ask by Controller office.)\nCheck this link for application form\nhttp://ece.northsouth.edu/resources/forms/"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Need to submit all the documents, (Application form with necessary dept clearance, Intend application, student course analysis, updated unofficial transcript, photograph and other papers ask by Controller office.)\\n\nCheck this link for application form\\n\nhttp://ece.northsouth.edu/resources/forms/"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524227668,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "8887bce2-0617-4c8c-84a0-cbeb850f1cd6",
+    "data": [
+      {
+        "text": "How to do Degree analysis?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524227004
+  },
+  {
+    "id": "b4241aa9-83f1-4773-8bdc-d5d74275e1b0",
+    "data": [
+      {
+        "text": "how to do degree analysis after completing all the required courses necessary for getting the degree?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524227004
+  },
+  {
+    "id": "73cf2b3e-1620-45b9-baa9-6ae22e8a2956",
+    "data": [
+      {
+        "text": "application form for degree analysis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524227668
+  },
+  {
+    "id": "39ef1f66-267f-48bf-9475-27e0600b4772",
+    "data": [
+      {
+        "text": "What should I bring for my degree analysis?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1524227668
+  },
+  {
+    "id": "e0f9524e-f723-4e37-adfa-6ea0f8fd9e68",
+    "data": [
+      {
+        "text": "what is needed for degree analysis ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524227004
+  },
+  {
+    "id": "6adf8c0e-ff16-4139-9874-f8acdfc2d97d",
+    "data": [
+      {
+        "text": " template file of degree analysis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524227668
+  }
+]{
+  "id": "2b6cf38a-161a-4c61-957f-ff538d017e01",
+  "name": "degree_course_analysis_where",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please contact the program office (SAC942) with all relevant document at ECE department."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523716770,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "cbed7e99-94aa-49db-b161-ed2292a11c3b",
+    "data": [
+      {
+        "text": "Where can I do my degree analysis?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521035232
+  },
+  {
+    "id": "90ecdfd4-1f6f-4f23-a5b6-63e4e954f614",
+    "data": [
+      {
+        "text": "Who can I go for my degree analysis?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521035375
+  },
+  {
+    "id": "be2cfcad-5c9e-4185-8411-20ccbd232bd8",
+    "data": [
+      {
+        "text": "Who can I go for my course analysis?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523716770
+  },
+  {
+    "id": "7e1a6d08-0972-400d-a16c-7954d1d80d84",
+    "data": [
+      {
+        "text": "Where can I do my course analysis?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521035232
+  }
+]{
+  "id": "4a6a69ce-f3d4-410d-afea-004a1567167d",
+  "name": "degree_course_exclude",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Courses exclude must be done before the degree analysis. Only final CGPA will process at the time of degree analysis"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523716036,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "39b159ad-83d7-403e-bf40-9be825b4e7c7",
+    "data": [
+      {
+        "text": "How to exclude any course in course analysis?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523716036
+  },
+  {
+    "id": "19d9d15b-33bf-460a-8105-b7159479c030",
+    "data": [
+      {
+        "text": "How to exclude any course in degree analysis?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523716036
+  }
+]{
+  "id": "c831a155-fc66-48e3-84db-bc280fdb2a54",
+  "name": "degree_vs_course",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Course analysis is the part in which students may check their courses as per their respective curriculum and it may check any time before degree conferred.\nAnd Degree Analysis is the last part and it must be done for the degree process"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Course analysis is the part in which students may check their courses as per their respective curriculum and it may check any time before degree conferred.\n\\n And Degree Analysis is the last part and it must be done for the degree process"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524015386,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "62891354-f9e8-48ab-aab7-548073104712",
+    "data": [
+      {
+        "text": "what is the difference between course analysis and degree analysis?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523509685
+  },
+  {
+    "id": "d5702c68-af4e-4e8c-8ad2-fb950631f06b",
+    "data": [
+      {
+        "text": "what is degree analysis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523509685
+  },
+  {
+    "id": "ac0f8809-6fc5-4253-b877-84b3ee7efe6a",
+    "data": [
+      {
+        "text": "what is the difference between degree analysis and course analysis?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523716339
+  },
+  {
+    "id": "cc99f9c5-6b02-46aa-8b11-2c469f053311",
+    "data": [
+      {
+        "text": "what is course analysis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523716339
+  }
+]{
+  "id": "74e1a68b-55ad-4c68-a71e-7971c852be9e",
+  "name": "dual_major_dif_dept",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Yes"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522176872,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "83cdb8b2-972b-4644-8124-f06bae8036b4",
+    "data": [
+      {
+        "text": "Could I do my minor on other subjects in different department?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522176872
+  }
+]{
+  "id": "478cda09-b48d-406a-b0cb-29de2ed8cde0",
+  "name": "dual_mejor",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "For dual Major, students should full fill all the credit requirement of core and elective courses. GED \u0026 open elective may be common at the time of dual major. In this aspect, some elective courses would be same/common. Declaration will be processed at the time of degree analysis by ECE dept. In that case please make visit at the Program Office regarding your course analysis in each semester."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523714783,
+  "fallbackIntent": false,
+  "events": []
+}{
+  "id": "9b60595a-b3b2-4cf2-b985-ab3b3e938986",
+  "name": "dual_mejor_dept",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "First major will be declared as per your respective dept and other major need to be declared both respective dept, like BBA-Finance, Economics or English, students should full fill all the credit requirement of core and elective courses. GED \u0026 open elective may be common at the time of dual major. In this aspect, some elective courses would be same/common. Declaration will be processed at the time of degree analysis by ECE dept. In that case please make visit at the Program Office regarding your course analysis in each semester."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523714878,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "3783acc3-0c69-48f3-9aef-95a588c02864",
+    "data": [
+      {
+        "text": "If i want to do dual major from ECE (",
+        "userDefined": false
+      },
+      {
+        "text": "one",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " from EEE and another from ",
+        "userDefined": false
+      },
+      {
+        "text": "CSE",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ") department which procedure i should follow?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523714725
+  },
+  {
+    "id": "2daa90cd-2258-4176-8496-32db2a1fa74c",
+    "data": [
+      {
+        "text": "What is the process or regulations for undergoing a dual major in BSc program?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523714878
+  },
+  {
+    "id": "68e7cd0d-fe79-4056-960a-6b81a468f59f",
+    "data": [
+      {
+        "text": "dual major in another dept",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521032413
+  },
+  {
+    "id": "0a0986f9-6f47-4c20-89b5-ca717e4b5067",
+    "data": [
+      {
+        "text": "dual major in another department",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523714878
+  }
+][
+  {
+    "id": "9f09a188-fca2-43cf-8f18-45cfca5157aa",
+    "data": [
+      {
+        "text": "What is the procedure of doing dual major?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521032291
+  },
+  {
+    "id": "11e1b5f6-4776-44fa-aaee-d78bf4ff393f",
+    "data": [
+      {
+        "text": "What are the common courses that needs to be done only once, if any, for the dual ",
+        "userDefined": false
+      },
+      {
+        "text": "major",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523714402
+  },
+  {
+    "id": "568e7369-3d9e-474c-bcd5-5351605153b9",
+    "data": [
+      {
+        "text": "What are the requirements for doing dual major in EEE and ",
+        "userDefined": false
+      },
+      {
+        "text": "CSE",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523714402
+  },
+  {
+    "id": "c2d97ba3-8c7c-4d22-b271-d3962a968076",
+    "data": [
+      {
+        "text": "how to do dual mejor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521032291
+  }
+]{
+  "id": "f9108447-5b48-4a7e-ae0e-f5e7c9c09804",
+  "name": "ECE",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Department of Electrical and Computer Engineering (ECE) at North South University (NSU).\nDepartment offers undergraduate and master’s degrees in three different disciplines: Computer Science and Engineering (CSE), Electrical and Electronic Engineering (EEE) and Electronic and Telecommunication Engineering (ETE). These disciplines are highly synergetic, and since they are together in a single department it gives us a unique advantage in making new discoveries and innovation for our students and faculty members.\nPhone: +880-2-55668200 Ext. 1526, +880-2-55668200 Ext. 1530\nEmail: ece@northsouth.edu"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Department of Electrical and Computer Engineering (ECE) at North South University (NSU).\nDepartment offers undergraduate and master’s degrees in three different disciplines: Computer Science and Engineering (CSE), Electrical and Electronic Engineering (EEE) and Electronic and Telecommunication Engineering (ETE). These disciplines are highly synergetic, and since they are together in a single department it gives us a unique advantage in making new discoveries and innovation for our students and faculty members.\\n\nPhone: +880-2-55668200 Ext. 1526, +880-2-55668200 Ext. 1530\\n\nEmail: ece@northsouth.edu"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524158082,
+  "fallbackIntent": false,
+  "events": []
+}{
+  "id": "693ca2b9-9911-408f-ab3f-8d6bd899c706",
+  "name": "ECEwiki_about",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "ECEwiki is about a Chatbot which has been implemented in three platforms and it is able to answer all related questions about ECE department without any human involvement.\nDeveloper Details:\nMd. Hassan\t\nEmail:  md.hassan@northsouth.edu\nAshraful Islam\t \nEmail:  md.ashraful@northsouth.edu\nIbrahim Chowdhury\t \nEmail: ibrahim.chowdhury@northsouth.edu"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "ECEwiki is a Chatbot which has been implemented in three platforms and it is able to answer all related questions about ECE department without any human involvement.\\n\nDeveloper Details:\\n\nMd. Hassan\t\\n\nEmail:  md.hassan@northsouth.edu\\n\nAshraful Islam\t \\n\nEmail:  md.ashraful@northsouth.edu\\n\nIbrahim Chowdhury\t \\n\nEmail: ibrahim.chowdhury@northsouth.edu"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529810697,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "c4b23bb1-2e38-4677-8072-1bbf863643a2",
+    "data": [
+      {
+        "text": "developer of this project",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529810697
+  },
+  {
+    "id": "370d8095-ff4f-4775-80fe-cb52d5b95be8",
+    "data": [
+      {
+        "text": "Who build you ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528538544
+  },
+  {
+    "id": "721c137e-b391-4dd3-a86d-bd207c735758",
+    "data": [
+      {
+        "text": "Who develop this chatbot?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527447742
+  },
+  {
+    "id": "b0af38b6-fbf2-4b4a-a0f5-502589ef3a9e",
+    "data": [
+      {
+        "text": "what is ecewiki ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527447742
+  },
+  {
+    "id": "8a6a1636-58f2-406b-aaf0-7ea0e5940911",
+    "data": [
+      {
+        "text": "Who built you ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527447742
+  },
+  {
+    "id": "53e83863-b563-4579-ac65-84ae6adbb9e4",
+    "data": [
+      {
+        "text": "tell me about your developer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527447742
+  },
+  {
+    "id": "fbcc1795-caa9-493b-8c4b-78f8e2278ae7",
+    "data": [
+      {
+        "text": "ECEwiki",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527447742
+  },
+  {
+    "id": "3110f218-e9c3-46dc-b6f8-55616aade1e5",
+    "data": [
+      {
+        "text": "who made you ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527447742
+  }
+][
+  {
+    "id": "8bd0afb2-12e4-4ba2-a8e5-7ccceb93c502",
+    "data": [
+      {
+        "text": "What is ECE",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523947383
+  },
+  {
+    "id": "2878d725-4a1e-4cda-a018-0b6064c56cf5",
+    "data": [
+      {
+        "text": "What is ECE department",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523947383
+  },
+  {
+    "id": "5ef157cd-c429-49f5-bb46-e9b29d03abc0",
+    "data": [
+      {
+        "text": "how to contact with ece department?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523947383
+  },
+  {
+    "id": "b7d9f8cd-9a3e-4247-b11b-7fc5348df327",
+    "data": [
+      {
+        "text": "ECE department",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523947383
+  }
+]{
+  "id": "cec84d71-6516-4849-8c3b-b742c84d3cd9",
+  "name": "eng102_credit_or_not",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please see your respective program curriculum"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522755924,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "ff33bfd2-2422-42b7-bba7-77d9503282cb",
+    "data": [
+      {
+        "text": "Eng ",
+        "userDefined": false
+      },
+      {
+        "text": "102",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " credit or not credit course for EEE ",
+        "userDefined": false
+      },
+      {
+        "text": "130",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " credits curriculum?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522755924
+  },
+  {
+    "id": "9e8a9903-5ae9-4253-a7dc-25ee2d645767",
+    "data": [
+      {
+        "text": "eng ",
+        "userDefined": false
+      },
+      {
+        "text": "102",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " credit or non credit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522755924
+  }
+]{
+  "id": "89cc7679-ff6a-4f63-91fc-f177fc3ecfb4",
+  "name": "eng103_waved",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please see your respective program curriculum. But As per 38th academic council ENG102 is a mandatory 3 credit course effect from spring 2010"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523717033,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "b3389143-e83e-4eec-975b-eb4fc14ddcff",
+    "data": [
+      {
+        "text": "If a student gets weaver on ENG ",
+        "userDefined": false
+      },
+      {
+        "text": "102",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ", does it gets counted inside ",
+        "userDefined": false
+      },
+      {
+        "text": "130",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " credits or the student needs to add a 3cr course?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523717033
+  }
+]{
+  "id": "3e6919b8-4a76-4992-bc32-3ff422a9db4f",
+  "name": "Faculty.Information",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "facultyInfo",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9aaf2bb3-996a-400b-9f99-bcdd790392c3",
+          "required": false,
+          "dataType": "@faculty",
+          "name": "faculty",
+          "value": "$faculty",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, I am unable to provide information right now.Please try again."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524064395,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "5e7361f1-afb3-4ea0-9fc2-4144f34927b1",
+    "data": [
+      {
+        "text": "Who is @faculty:faculty?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523944198
+  },
+  {
+    "id": "95ae4470-26c5-4f84-8d4d-abc3a9a7fa17",
+    "data": [
+      {
+        "text": "give me contact information of @faculty:faculty sir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523944198
+  },
+  {
+    "id": "39a25f38-d77d-4480-ab20-7f246521752f",
+    "data": [
+      {
+        "text": "office hour @faculty:faculty sir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523944198
+  },
+  {
+    "id": "e623ffdd-a8f8-4f65-b154-86abbd9e6382",
+    "data": [
+      {
+        "text": "please give me @faculty:faculty  sir email address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523944198
+  },
+  {
+    "id": "e71bd09a-d799-403e-a5bb-425bde4ec2d6",
+    "data": [
+      {
+        "text": "What is @faculty:faculty ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523944198
+  },
+  {
+    "id": "e80fb829-44b1-413e-9231-025dea21366a",
+    "data": [
+      {
+        "text": "I need email address of @faculty:faculty  sir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523944198
+  },
+  {
+    "id": "c8c5eade-4b19-40d8-a1e5-89383591895e",
+    "data": [
+      {
+        "text": "mobile number @faculty:faculty sir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523944198
+  },
+  {
+    "id": "44784c92-11fd-4477-a9a1-d08f71f0a409",
+    "data": [
+      {
+        "text": "who is the @faculty:faculty of ece department?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523944198
+  },
+  {
+    "id": "c505b240-397c-4325-a3d9-1b9dcfab4dc0",
+    "data": [
+      {
+        "text": " I want to know details about @faculty:faculty",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523944198
+  },
+  {
+    "id": "4420e8dc-43bd-4bc3-a70e-aaa6ea9e725f",
+    "data": [
+      {
+        "text": "@faculty:faculty  sir phone number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523944198
+  },
+  {
+    "id": "8ee4fec4-1afa-4c11-8344-5067a26df02b",
+    "data": [
+      {
+        "text": "@faculty:faculty sir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523944198
+  },
+  {
+    "id": "76b09bc0-09ab-484e-b4f3-94a7306c6e4e",
+    "data": [
+      {
+        "text": "phone @faculty:faculty  sir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523944198
+  },
+  {
+    "id": "f0945ade-bbcd-4fdc-9a0d-d9941dcb4366",
+    "data": [
+      {
+        "text": "room number @faculty:faculty  sir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523944198
+  },
+  {
+    "id": "b827925c-0651-4fd1-96b9-b4f4928a3674",
+    "data": [
+      {
+        "text": "details about @faculty:faculty sir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1523944198
+  }
+]{
+  "id": "010bdb5f-5710-455d-ba09-d58cf98ef070",
+  "name": "faculty_adviser",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Faculty adviser is a person to guide your academic progress. To know your faculty adviser log in to SIMS/RDS."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523021002,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "cbcc1db5-b90c-4441-88d0-789b32a29986",
+    "data": [
+      {
+        "text": "how can i know my faculty adviser name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523021002
+  },
+  {
+    "id": "873c7239-004e-47ba-87b3-ce7d3c1c1d75",
+    "data": [
+      {
+        "text": "what is faculty adviser for ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523021002
+  },
+  {
+    "id": "dc82c5c5-be0f-4fe7-ad3d-98fa80f3d700",
+    "data": [
+      {
+        "text": "why i need a faculty adviser",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523021002
+  },
+  {
+    "id": "383b1574-fc2b-4d67-9871-e191bf0a7ea1",
+    "data": [
+      {
+        "text": "what is faculty adviser",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523021002
+  },
+  {
+    "id": "336169ef-c151-4276-bf7a-03f5ecea601f",
+    "data": [
+      {
+        "text": "who is my faculty adviser",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523021002
+  }
+]{
+  "id": "ce430e91-a090-40d2-b84c-dca6e0745af8",
+  "name": "financial_aid",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please see the link http://ece.northsouth.edu/undergraduate/financial-aid/ at our ECE website."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523715844,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "62050133-a8e3-4204-8334-c6b4d41af251",
+    "data": [
+      {
+        "text": "How much cgpai need to get financial aid?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522170814
+  },
+  {
+    "id": "c071fd1a-851e-468a-b427-be746200bf5c",
+    "data": [
+      {
+        "text": "where to apply for financial aid?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522170814
+  },
+  {
+    "id": "fab15737-f7ac-4bbb-92fd-bce8ab721d88",
+    "data": [
+      {
+        "text": "What to do for financial aid?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522170814
+  }
+]{
+  "id": "20212f18-b118-4bed-89a7-c6f63d66a250",
+  "name": "ged_course_list",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Lots of GED course is there, but ECE students usually take courses: ECO101, PSY101, SOC101, LBA101/HIS101, LBA102/HIS102, PHI101, PSY201, PAD201, INT101, REL205, PHI102, ANT102, BEN205, etc. Any new courses, please consult ECE dept (SAC942)."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521032176,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "7b4c2680-421d-4aab-af1d-a0ce65d04d28",
+    "data": [
+      {
+        "text": "What are the ged courses for any batch?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521032176
+  },
+  {
+    "id": "cef1a75d-3e4d-4201-95e3-d3f927bc19bc",
+    "data": [
+      {
+        "text": "ged list",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521031925
+  },
+  {
+    "id": "70722ce6-a5bc-4ee2-938b-9ef5ab35f490",
+    "data": [
+      {
+        "text": "What are the ged courses for 142 batch?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521031925
+  },
+  {
+    "id": "1b1dd523-27eb-443f-9b1a-4d2c84a719b2",
+    "data": [
+      {
+        "text": "latest ged course list",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521031925
+  }
+]{
+  "id": "0cc70d0f-e0df-4152-8926-53b6d857407e",
+  "name": "ged_def",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "General Education Courses. For the list of GED course type \"latest GED course list\"."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1528538567,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "7cb17a61-ba85-4494-b7b5-65293b3d501e",
+    "data": [
+      {
+        "text": "ged",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528538567
+  },
+  {
+    "id": "021f7edf-ad2f-4c51-b5ea-9bcc8a1999d5",
+    "data": [
+      {
+        "text": "GED course meaning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528538567
+  },
+  {
+    "id": "5e250b88-c7d4-465e-b38f-e8dff516e8ce",
+    "data": [
+      {
+        "text": "What is GED courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521031823
+  }
+]{
+  "id": "a8841f6d-118e-4149-aa09-bfdfe929bd93",
+  "name": "ged_his103_mandatoryOrNot",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "HIS101/LBA101 \u0026 HIS102/LBA102 is mandatory for 130 credit .\nBUT, From UGC , Both HIS103 and BEN205 is mandatory. In existing curriculum, HIS101 will be replaced by HIS103 and ENG115 by BEN205. However, students who have already taken HIS101 and/or ENG115 by spring 2018 then for them ENG115 and HIS103 are not mandatory."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "HIS101/LBA101 \u0026 HIS102/LBA102 is mandatory for 130 credit .\\n\nBUT, From UGC , Both HIS103 and BEN205 is mandatory. In existing curriculum, HIS101 will be replaced by HIS103 and ENG115 by BEN205. However, students who have already taken HIS101 and/or ENG115 by spring 2018 then for them ENG115 and HIS103 are not mandatory."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524114543,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "77768df6-d477-4491-b133-f1d8d6fa3343",
+    "data": [
+      {
+        "text": "His101,102,103 which ",
+        "userDefined": false
+      },
+      {
+        "text": "one",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " is mandatory?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524114543
+  },
+  {
+    "id": "8f560d8a-43f3-49d8-a6cd-c4b24a79a507",
+    "data": [
+      {
+        "text": "is his 101 mandataory",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524114543
+  },
+  {
+    "id": "581b704e-50af-4215-bceb-650dc4e03b2b",
+    "data": [
+      {
+        "text": "is BEN205 mandatory ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524114543
+  },
+  {
+    "id": "c25d1a93-f8e4-43db-bd7e-62d75e57df8d",
+    "data": [
+      {
+        "text": "Which course to do his101/",
+        "userDefined": false
+      },
+      {
+        "text": "102",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "/",
+        "userDefined": false
+      },
+      {
+        "text": "103",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1524114543
+  },
+  {
+    "id": "cb10758d-f6f1-472e-a6c9-2deb0bfde0ae",
+    "data": [
+      {
+        "text": "I am following ",
+        "userDefined": false
+      },
+      {
+        "text": "new",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " curriculum, Should I do HIS103,HIS101,HIS102?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524114543
+  },
+  {
+    "id": "d4c77815-f2a7-49ed-a625-bdeee0bbb2ab",
+    "data": [
+      {
+        "text": "I want to know about which courses I have to do among his101, his102, his103",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524114543
+  },
+  {
+    "id": "19a32ae9-08dd-4355-8e27-ed68dbb2bd2e",
+    "data": [
+      {
+        "text": "What are the mandatory history courses for batch ",
+        "userDefined": false
+      },
+      {
+        "text": "161",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524114543
+  },
+  {
+    "id": "ef8bb8a2-efed-45d0-9e2d-fdae46768bbc",
+    "data": [
+      {
+        "text": "Is HIS103 mandatory for ECE dept students?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524114543
+  }
+]{
+  "id": "d594dcae-b7ed-47b7-bde5-27c9c0c27b03",
+  "name": "grading_policy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "93 \u003e \tA Excellent \t4.0\n90-92 \tA- \t               3.7\n87-89 \tB+ \t               3.3\n83-86 \tB Good \t       3.0\n80-82 \tB- \t               2.7\n77-79 \tC+ \t               2.3\n73-76 \tC Average     2.0\n70-72 \tC- \t               1.7\n67-69 \tD+ \t               1.3\n60-66 \tD Poor \t       1.0\n\u003c 60 \tF* Failure \t0.0\n\nhttp://institutions.northsouth.edu/cee/academics/grading-policy.html"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "93 \u003e \tA Excellent   4.0\\n\n90-92 \tA- \t               3.7\\n\n87-89 \tB+ \t               3.3\\n\n83-86 \tB Good \t       3.0\\n\n80-82 \tB- \t               2.7\\n\n77-79 \tC+ \t               2.3\\n\n73-76 \tC Average     2.0\\n\n70-72 \tC- \t               1.7\\n\n67-69 \tD+ \t               1.3\\n\n60-66 \tD Poor \t       1.0\\n\n\u003c 60 \tF* Failure \t0.0\\n\n\nfor more information go to http://institutions.northsouth.edu/cee/academics/grading-policy.html"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524028017,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "1210d942-5c8f-4864-af07-e81523fbb582",
+    "data": [
+      {
+        "text": "NSU grade policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524028017
+  },
+  {
+    "id": "23b23ff0-3d02-4aea-afc3-5d4759e1b5a3",
+    "data": [
+      {
+        "text": "grading policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524028017
+  },
+  {
+    "id": "0b095a13-9ca8-4ed4-87d8-0f439e5673d1",
+    "data": [
+      {
+        "text": "grading system",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524028017
+  }
+]{
+  "id": "f73ad017-cb89-4b33-ac6c-78c41a65faf0",
+  "name": "Help_user",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "You can ask any question regarding NSU ECE department. Here are few examples:\n1. What is GED courses?\n2. Can you tell me about AMC sir?\n3. Tell me SZZ sir email ?\n4. How can i cancel my admission in NSU?\n5. How to apply for financial aid?\n6. What is the prerequisite of CSE331 ?\n7. What is the process of dual major in another department?\n8. What should I bring for my degree analysis?\n9. how can i know my faculty adviser name ?\n10. can i take 500 level courses as open elective?\n11. which courses are open elective ?\n12. What is the procedure of doing advising after getting into probation?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You can ask any question regarding NSU ECE department. Here are few examples:\\n\n1. What is GED courses?\\n\n2. Can you tell me about AMC sir?\\n\n3. Tell me SZZ sir email ?\\n\n4. How can i cancel my admission in NSU?\\n\n5. How to apply for financial aid? \\n\n6. What is the prerequisite of CSE331 ?\\n\n7. What is the process of dual major in another department?\\n\n8. What should I bring for my degree analysis?\\n\n9. how can i know my faculty adviser name ?\\n\n10. can i take 500 level courses as open elective?\\n\n11. which courses are open elective ?\\n\n12. What is the procedure of doing advising after getting into probation?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523991522,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "274fa5ed-a172-46f1-a8ca-109802745005",
+    "data": [
+      {
+        "text": "what is your role",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523991522
+  },
+  {
+    "id": "f0a77651-ae6a-4459-83b9-456fbf9e615c",
+    "data": [
+      {
+        "text": "I need help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523991522
+  },
+  {
+    "id": "4e0d0711-288c-42d0-af48-b28e25797a6f",
+    "data": [
+      {
+        "text": "how do you work",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523991522
+  },
+  {
+    "id": "e0cc3b9a-dc4f-4e29-ab62-cdb65ca8ba21",
+    "data": [
+      {
+        "text": "please help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523991522
+  },
+  {
+    "id": "38bac046-0afb-48cf-8435-c6435d1abea4",
+    "data": [
+      {
+        "text": "what can you do for me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523991522
+  },
+  {
+    "id": "d794d0c9-fc4b-443e-83d8-5e76f8425357",
+    "data": [
+      {
+        "text": "help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523991522
+  }
+]{
+  "id": "2fbce27a-2574-4659-b3f6-71aea6c2a0fb",
+  "name": "hi,hello,hola,adab",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hello :)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514444700,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "6b826ce3-5835-419c-8a56-8dfe37af90a3",
+    "data": [
+      {
+        "text": "hello",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514444700
+  },
+  {
+    "id": "af425057-a163-4cdf-90af-ce5cfafdba7b",
+    "data": [
+      {
+        "text": "adab",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514444700
+  },
+  {
+    "id": "7ec82172-6d4c-41d4-a101-d55c0af8909f",
+    "data": [
+      {
+        "text": "hola",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514444700
+  },
+  {
+    "id": "4e24c7d1-c7a6-4aac-b538-206958ffc2ab",
+    "data": [
+      {
+        "text": "hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514444700
+  }
+]{
+  "id": "16bcc69d-8806-405b-9c86-83523069371d",
+  "name": "intern",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Internship, It is a requirement of curriculum"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523989047,
+  "fallbackIntent": false,
+  "events": []
+}{
+  "id": "e68e7aaf-f04d-4c97-80b0-492319a3d089",
+  "name": "internship",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please see the respective program curriculum"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523988940,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "2a4efed3-b4b3-445f-9f6c-68893819b4af",
+    "data": [
+      {
+        "text": "What will we have to do in 153 batch intern or project?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523988940
+  },
+  {
+    "id": "868d761b-0772-4f1c-b54c-2e1c43bd5d99",
+    "data": [
+      {
+        "text": "Is CSE498 mandatory for 130 curriculum",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523988940
+  },
+  {
+    "id": "f3617012-e97a-461c-acae-f33fa0f02641",
+    "data": [
+      {
+        "text": "Is CSE498 mandatory for 151 batch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523988940
+  },
+  {
+    "id": "235cdacb-a871-4d25-8b7d-52c93b84541a",
+    "data": [
+      {
+        "text": "how to take courses like CSE498 that are not offered in advising.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523988940
+  },
+  {
+    "id": "e7636f32-11ea-46ca-9cfb-8b5a29cd966f",
+    "data": [
+      {
+        "text": "I am following new curriculum, do I need to do internship?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523988940
+  }
+][
+  {
+    "id": "23189418-2a33-437b-a9fc-4e959281b267",
+    "data": [
+      {
+        "text": "Internship",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523989047
+  },
+  {
+    "id": "dc5a92d3-3441-4d0f-84c7-c0432015b580",
+    "data": [
+      {
+        "text": "What are \u0027Intern/Co-op\u0027 courses and what for?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522178001
+  }
+]{
+  "id": "5e5264e5-51ca-4903-9fac-bc2374f05c6f",
+  "name": "lab_course",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "you may retake lab only"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523989092,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "0ac95193-592b-453e-83b7-c2132e4914f6",
+    "data": [
+      {
+        "text": "Can we re take only a lab course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523989092
+  },
+  {
+    "id": "4d7a9d84-d806-4c34-b8c3-73896ee98543",
+    "data": [
+      {
+        "text": "Can we re take only a lab course? Or we have to take the full course?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523989092
+  }
+]{
+  "id": "4ddef655-2b51-49e1-b3c0-840952d3501c",
+  "name": "lab_job",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You can apply through recruitment process."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523771122,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "743affc3-36df-4467-8b01-a77f6f9c9172",
+    "data": [
+      {
+        "text": "is it possible for me to get a job of lab instructor?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523771122
+  },
+  {
+    "id": "efd228e1-17fa-4b23-a602-35c50f1d0718",
+    "data": [
+      {
+        "text": "how to get a lab instructor job ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523771122
+  }
+]{
+  "id": "982d4849-b57d-4f53-aeca-517429c5e405",
+  "name": "lab_without_course",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Yes, if it is reatake course"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523815311,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "65d3171a-6854-451c-b5ae-83ac05047df5",
+    "data": [
+      {
+        "text": "can  any  lab  course  be  taken  without  taking  the  corresponding  theory  class?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522178168
+  },
+  {
+    "id": "c3b01a48-38a4-4ce3-a98e-41062cfbd493",
+    "data": [
+      {
+        "text": "Can i retake CSE115 theory course without lab?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523815311
+  }
+]{
+  "id": "7413d105-f825-4905-85f4-5b37a4f6c6d5",
+  "name": "last_date_withdraw",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please check the NSU academic calendar"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523769679,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "4268c703-a04a-4ceb-bfd6-1da56e36d121",
+    "data": [
+      {
+        "text": "How to drop courses with ",
+        "userDefined": false
+      },
+      {
+        "text": "100%",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " return?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523769679
+  },
+  {
+    "id": "948fdb44-2162-4a97-a745-6d7995a5e55a",
+    "data": [
+      {
+        "text": "how to withdraw a course after semester starts?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523769679
+  },
+  {
+    "id": "388d79c5-7119-443f-9aee-ca8a82e6d353",
+    "data": [
+      {
+        "text": "What is the last date of course withdraw?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523769679
+  }
+]{
+  "id": "01eb7872-f5ba-4261-987a-07026a625edc",
+  "name": "LBA_alternative_course",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "LBA101 is HIS101 \u0026 LBA102 is HIS102"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521043720,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "c11a9c71-4a15-404d-8425-45c6a10dd973",
+    "data": [
+      {
+        "text": "What are the alternative courses for LBA101 \u0026 LBA102 for 161 batch?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521042698
+  }
+]{
+  "id": "4147bf60-0cfd-444a-aa3a-afcce9308bbd",
+  "name": "library",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Please visit our NSU library with the link of  \nhttp://library.northsouth.edu/"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please visit our NSU library with the link of \\n http://library.northsouth.edu/"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523989258,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "ea5787e0-e584-4d9f-8008-b8eee7dd8739",
+    "data": [
+      {
+        "text": "How to apply for library card?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521034667
+  },
+  {
+    "id": "d169becd-b05a-4564-918e-c24851f78dce",
+    "data": [
+      {
+        "text": "How to Renew library card?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521034667
+  },
+  {
+    "id": "d559272d-da93-4e0f-8c1b-5142edec5bf6",
+    "data": [
+      {
+        "text": "what is the procedure for open a library card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521034667
+  }
+]{
+  "id": "5e88687f-1995-4925-96db-ffe874c35e94",
+  "name": "major_capston",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "This is a senior design project to demonstrate some visible by learning outcome of his/her academic achievement"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523989306,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "94e37839-5f5b-4648-b2c3-a362431a9a27",
+    "data": [
+      {
+        "text": "What is \u0027CSE Major Capstone Design Project\u0027?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523717546
+  },
+  {
+    "id": "ed06cc6d-2d44-4a0c-bc0f-619da9a57b3a",
+    "data": [
+      {
+        "text": "What is Capstone Design?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523717546
+  },
+  {
+    "id": "e903ff3c-4f3c-402d-a3b7-eabea70f80ca",
+    "data": [
+      {
+        "text": "What is Capstone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523989306
+  }
+]{
+  "id": "a9eb0083-7437-4aed-995f-e75bc5979fe8",
+  "name": "major_change",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please submit the prescribed form supplied by ECE dept."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523989358,
+  "fallbackIntent": false,
+  "events": []
+}{
+  "id": "2abeb1e1-3042-4ccd-b6cd-5211d30b9ede",
+  "name": "major_change_new",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "To change the major/program, you have to qualify your desired program through NSU admission test. If you qualify, place an application to your desired department through your current department. With application necessary documents are: copy of NSU offer letter, updated transcript"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523717608,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "ed700343-df6e-4c5f-8a73-c82c70f782da",
+    "data": [
+      {
+        "text": "what i need to do to change my major subject ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522486046
+  },
+  {
+    "id": "3fc05727-2dc8-43c4-aed6-c9044410b76c",
+    "data": [
+      {
+        "text": "is there any way to change ",
+        "userDefined": false
+      },
+      {
+        "text": "major",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " subject",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523717608
+  },
+  {
+    "id": "6a6bb94c-6bd4-40e3-a8e9-ada7d35706b3",
+    "data": [
+      {
+        "text": "How can I change my major subject",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522176596
+  }
+][
+  {
+    "id": "2a8292b9-f4ef-457b-85eb-c545ae30f506",
+    "data": [
+      {
+        "text": "how to change ",
+        "userDefined": false
+      },
+      {
+        "text": "major",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523989358
+  }
+]{
+  "id": "93b7397f-2d0a-443b-b168-8d01249090a1",
+  "name": "major_rule",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please see the curriculum or discuss at the department"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522176918,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "759b4c1e-f66e-49fa-b24c-95bf6173a8ed",
+    "data": [
+      {
+        "text": "What is the rule for taking courses from the major trails?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522176918
+  }
+]{
+  "id": "3eaa2b37-3b64-4efb-83e4-396d553a14e3",
+  "name": "major_when",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "From the beginning of the semester, you have to choose the major courses (i.e. for CSE: CSE115+Lab, ETE/EEE: EEE141+Lab)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522176954,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "6d346f4f-2a59-4a79-b56e-c3a5661eecd0",
+    "data": [
+      {
+        "text": "In which semester i have to choose a major course?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522176954
+  }
+]{
+  "id": "2ddfb461-6192-45af-a81d-4bd82e87eb6a",
+  "name": "mark_sheet",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "No, not from your grade sheet. If you want you may exclude from CGPA calculation"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522178366,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "faa2a155-56fb-4fcf-b444-43ac0f544e0e",
+    "data": [
+      {
+        "text": "If I get a very poor grade in any course and if I retake it then is it possible to exclude that course from the mark sheet after completing my graduation?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522178366
+  }
+]{
+  "id": "e80c2933-bb49-4899-b281-bed77b8c0a44",
+  "name": "mat116_credit_or_not",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please see your respective program curriculum"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523716893,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "80885e20-cc22-40c9-a4c5-38951abb1216",
+    "data": [
+      {
+        "text": "When will non-credit course(mat116) be invalid?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523716893
+  },
+  {
+    "id": "46ffdd33-0daa-42a0-a135-f796c23d41d5",
+    "data": [
+      {
+        "text": "Is MAT116 a credit course?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521036042
+  }
+]{
+  "id": "37f10789-af0f-4fec-a2ed-4a27e8c52c75",
+  "name": "mat116_vs_eng102",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "No"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521035972,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "5c83fa17-f038-495a-9039-96460a08f4cc",
+    "data": [
+      {
+        "text": "Is MAT116 noncredit course, if yes, is it possible to take mat116 instead of eng102 as a credit course.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521035972
+  }
+]{
+  "id": "7f43179b-b32c-430f-98c1-77feedb0388c",
+  "name": "minor",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "For Minor, students should full fill all the credit requirement of minor courses (Minimum 30 credits) as per respective department like BBA-Mktg, English, Economics etc. GED \u0026 open elective may be counted from minor courses."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521034195,
+  "fallbackIntent": false,
+  "events": []
+}{
+  "id": "f540c171-92cd-44fd-a2e2-5cd781595908",
+  "name": "minor_declaration",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "At the time of degree analysis"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521034381,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "038491ff-47b9-40c6-8367-a9061bffc85e",
+    "data": [
+      {
+        "text": "when will we declare our major or minor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521034381
+  },
+  {
+    "id": "e57e638f-0b74-41f4-a016-4e04c2a82e6c",
+    "data": [
+      {
+        "text": "how to declare minor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521034381
+  },
+  {
+    "id": "ff22e7b2-0f00-43be-aec8-792517a65491",
+    "data": [
+      {
+        "text": "declaration of minor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521034381
+  }
+]{
+  "id": "80e4721e-27fc-4093-a815-698783395bf6",
+  "name": "minor_EEE498",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "for 130 credits Yes. but non credit."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523989655,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "77d3890e-b1e7-4d32-ad06-4bda4a1426cd",
+    "data": [
+      {
+        "text": "Is internship is mandatory for ",
+        "userDefined": false
+      },
+      {
+        "text": "130",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " credit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523989655
+  },
+  {
+    "id": "c041ff85-44b7-4b86-b9e4-3f4677ca4d47",
+    "data": [
+      {
+        "text": "Is it mandatory to do ETE498 in 130 credits ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523715178
+  },
+  {
+    "id": "a44bc992-02ca-4c72-a9ea-00ba5295eb7d",
+    "data": [
+      {
+        "text": "Is internship is mandatory for 151 batch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523989655
+  },
+  {
+    "id": "6240fd7f-d414-4c43-8f04-59d6dc5757c7",
+    "data": [
+      {
+        "text": "Is it mandatory to do ",
+        "userDefined": false
+      },
+      {
+        "text": "cse498",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " in 130 credits ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523715178
+  },
+  {
+    "id": "408e8360-a14f-43e5-b315-6e58524fd84d",
+    "data": [
+      {
+        "text": "Is it mandatory to do EEE",
+        "userDefined": false
+      },
+      {
+        "text": "-498",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " in 130 credits ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523715178
+  }
+]{
+  "id": "9ad15930-d0da-4f8d-a6c1-fd6c7163b385",
+  "name": "minor_math",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Need to complete the requirement of Math Minor course offered by Math \u0026 Physics Department. Please contact the respective department for the required courses"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521034330,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "7438081e-11c5-4e46-816c-91afaa0c31c4",
+    "data": [
+      {
+        "text": "How to do minor in math?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521034330
+  },
+  {
+    "id": "80b3716f-fb84-4476-a340-c80da4b40571",
+    "data": [
+      {
+        "text": "can i do minor in mathematics",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521034330
+  },
+  {
+    "id": "78c006d5-7537-4355-9810-1e9b9e77b510",
+    "data": [
+      {
+        "text": "minor in math",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521034330
+  }
+][
+  {
+    "id": "42da969f-2135-4e72-b585-2504c8ed2b97",
+    "data": [
+      {
+        "text": "how to do minor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521034195
+  },
+  {
+    "id": "ff570f13-a5fd-432d-b820-2ba5f5398759",
+    "data": [
+      {
+        "text": "What is the procedure of doing minor?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521034195
+  },
+  {
+    "id": "35776271-0cb6-4048-984c-dbb30bbec72c",
+    "data": [
+      {
+        "text": "tell me about minor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521034195
+  }
+]{
+  "id": "b70e9baa-b2fe-4852-9bab-5d8dbc19aac1",
+  "name": "min_cgpa_convo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Overall CGPA 2.00 as well as in each sector like Core, Elective, GED, open elective etc"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523770269,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "1f91c8c8-0817-4be7-8ad9-80b85e4117a4",
+    "data": [
+      {
+        "text": "How much CGPA will need to get my convocation?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523770266
+  },
+  {
+    "id": "7efd638e-56fb-4bd8-a003-8cba788a794c",
+    "data": [
+      {
+        "text": "minimum cgpa to get convocation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523770266
+  }
+]{
+  "id": "1eb919f2-88c2-43f8-aa6a-949816c713ae",
+  "name": "nac_sac",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "NAC : North Academic Building (North Side)\nSAC : South Academic Building (South Side)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523019140,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "31fe3b9d-a47f-4cf4-a4d2-c50a01abe4cb",
+    "data": [
+      {
+        "text": "Where is SAC",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523019140
+  },
+  {
+    "id": "59cec21d-1882-4759-8df6-33d2827d0770",
+    "data": [
+      {
+        "text": "what is SAC",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523019140
+  },
+  {
+    "id": "db95c3dc-163f-4937-a537-76de43b70bc9",
+    "data": [
+      {
+        "text": "what is NAC",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523019140
+  },
+  {
+    "id": "e6458e35-cb34-4a7a-8d97-3746405c8a7a",
+    "data": [
+      {
+        "text": "where is NAC",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523019140
+  }
+]{
+  "id": "30ec4124-ee62-43af-9370-4bb5f2e8185e",
+  "name": "nonCredit_course_list",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please see your respective program curriculum"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523988237,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "035efde5-5290-4e18-943a-20655e1cf943",
+    "data": [
+      {
+        "text": "non credit course list",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523715527
+  },
+  {
+    "id": "965523f9-46b7-443d-9a8f-b15f6b6547d2",
+    "data": [
+      {
+        "text": "What are the non credit courses that are mandatory for ",
+        "userDefined": false
+      },
+      {
+        "text": "CSE",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "173",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " students",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523715527
+  },
+  {
+    "id": "fd5e4bd1-9342-4ffc-b9f6-51d704f89925",
+    "data": [
+      {
+        "text": "credit lab list",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523988237
+  }
+]{
+  "id": "fd6fe8ac-cb7f-46cb-bb32-1a482e7b003d",
+  "name": "non_credit_fee",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "If lab is non credit under your curriculum, drop it by SIMS or get help of Chair ECE or If you mistakenly not drop the credit lab (which is your non credit), please apply to treasurer through Chair, ECE with respective copy of curriculum"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523715706,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "3a1ba097-82a2-4633-a2a7-048c0df85c2a",
+    "data": [
+      {
+        "text": "How to refund non credit labs fee?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523715706
+  },
+  {
+    "id": "31af5e56-d894-4921-99f1-cfd3db04373c",
+    "data": [
+      {
+        "text": "How to avoid paying non-credit labs fee?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523715706
+  },
+  {
+    "id": "7d38e6c9-046c-441d-99a7-58bc47751a18",
+    "data": [
+      {
+        "text": "What to do if your zero/non-credit course is counting as credit course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523715706
+  },
+  {
+    "id": "f53f2307-cd53-4544-9042-7b4a9ca8215b",
+    "data": [
+      {
+        "text": "how to drop non-credit lab after advising which is being shown as credit lab",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523715706
+  },
+  {
+    "id": "ba729357-a1dc-47b0-b2b0-209d5faa7ef7",
+    "data": [
+      {
+        "text": "how to get back the money for non credit lab",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523715706
+  }
+]{
+  "id": "2544b052-e752-48a2-87d9-fe004946de26",
+  "name": "NSU",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "NSU means North South University\ncheck this link \nhttp://www.northsouth.edu/about/brief-history.html"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "NSU means North South University \\ncheck this link \\nhttp://www.northsouth.edu/about/brief-history.html"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524015868,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "515ee2fe-e3e2-437e-921a-dab4ff21ffbf",
+    "data": [
+      {
+        "text": "tell me about nsu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524015868
+  }
+]{
+  "id": "9bbe39bc-897d-4267-9872-42e9cc70d5e0",
+  "name": "open_elective_500level",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "No as those are graduate courses."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523710858,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "7b204904-4279-4b09-ac47-7463ae397828",
+    "data": [
+      {
+        "text": "can we take ",
+        "userDefined": false
+      },
+      {
+        "text": "500",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " level course offered by ECE department as open elective course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523710858
+  },
+  {
+    "id": "8b5689ec-fd70-4453-8887-2f662655d5af",
+    "data": [
+      {
+        "text": "can i take graduate level courses as open elective?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521031462
+  }
+]{
+  "id": "8b397cad-60b2-40c1-86a5-b7f2360cc977",
+  "name": "open_elective_confusion",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Any courses of elective list, GED or others (but not similar courses like: ECO134 equivalent to MAT120 and ECO172 equivalent to MAT361), For any program, there is a selective list of elective courses in each program-please see the respective program curriculum or discuss to dept, who are confused."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523710969,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "014ba467-aba0-4cd1-abbb-4c7cd5be7783",
+    "data": [
+      {
+        "text": "which courses are open elective",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521031087
+  },
+  {
+    "id": "fd23681f-94b2-450a-9f0c-1d5c7d533976",
+    "data": [
+      {
+        "text": "what is open elective",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523710969
+  },
+  {
+    "id": "9cd7d40f-64b1-41a0-8941-211cfa5d3de7",
+    "data": [
+      {
+        "text": "Can you give detail about the ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " open elective courses for ",
+        "userDefined": false
+      },
+      {
+        "text": "CSE",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " students?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523710969
+  },
+  {
+    "id": "56a5e29a-fa8a-48bd-b0ff-3fb57e99d804",
+    "data": [
+      {
+        "text": "i am confused about open elective",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523710969
+  }
+]{
+  "id": "390e4855-e882-4e24-881b-4786b6bbebd5",
+  "name": "open_elective_count",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Usually best grade may be counted, but it depends on the student and settled at the time of degree analysis."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523711006,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "71c8294e-2102-4b57-a1e8-783990a53a8c",
+    "data": [
+      {
+        "text": "I did ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " open elective courses. Which one will be count?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523711006
+  },
+  {
+    "id": "0174306d-d542-451e-8cf0-71c7c265a1a5",
+    "data": [
+      {
+        "text": "which open elective course will be counted ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521031385
+  }
+]{
+  "id": "8ce4d3f3-7ad3-4c15-a349-1e357d49c3e7",
+  "name": "open_elective_offering",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It will be settled at the time of advising or course registration."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521031259,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "f84d7a7e-37cc-46e7-bf13-ffadff59df2d",
+    "data": [
+      {
+        "text": "next semester open elective",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521031259
+  },
+  {
+    "id": "3060e650-c71c-4b18-994f-75a45bed8417",
+    "data": [
+      {
+        "text": "Which open elective course/courses will be offered in next semester?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521031259
+  },
+  {
+    "id": "094e7083-de57-493d-a0bb-028958b66906",
+    "data": [
+      {
+        "text": "up coming semester open elective",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521031259
+  }
+]{
+  "id": "4da2b0f8-0548-4626-bb07-6c371b754238",
+  "name": "out_probation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "By upgrading your CGPA to 2.00 and consult your mentor regarding retake"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522178672,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "6d1d69cc-9cf8-4da2-bba3-b50c4dda9dc2",
+    "data": [
+      {
+        "text": "How can I come out of probation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522178672
+  }
+]{
+  "id": "0af44e62-1249-4601-a136-8d880b0e9131",
+  "name": "path/course",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "In your respective curriculum or check this link \nhttp://ece.northsouth.edu/undergraduate/academics/programs/"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "In your respective curriculum or check this link \\nhttp://ece.northsouth.edu/undergraduate/academics/programs/"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523990112,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "ef773b14-86a7-4c3b-8060-bebc0daa46e6",
+    "data": [
+      {
+        "text": "Where can I find my course path/course abbreviations?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522178102
+  }
+]{
+  "id": "4c3428dd-5440-4d08-9761-d3e2a2c2d6fd",
+  "name": "phy_lab",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please see your respective program curriculum"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521042380,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "61e69f05-f2b5-4846-af5b-cd42d95b729d",
+    "data": [
+      {
+        "text": "Is it mandatory to doing physics 107 lab for 142 batch students?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521042377
+  }
+]{
+  "id": "fdfeee76-de6b-4909-8024-8ad6443677f3",
+  "name": "prerequisite",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Necessary courses to take the next level course (i.e. to take CSE173 the prerequisite is CSE115)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523711964,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "f83824db-109b-4b58-af84-524584354a37",
+    "data": [
+      {
+        "text": "What is a prerequisite?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523711964
+  },
+  {
+    "id": "d2677fd2-805c-4046-8710-d7c662fc7758",
+    "data": [
+      {
+        "text": "What is a pre-requisite?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523711964
+  }
+]{
+  "id": "4873b459-c9a2-4c9f-9537-72f4ad52f1f8",
+  "name": "probation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Probation means below CGPA 2.00. If you want to get over from probation please consult with your faculty adviser."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523722119,
+  "fallbackIntent": false,
+  "events": []
+}{
+  "id": "d8a72f4b-19d5-4080-ad0f-42264ce13fc9",
+  "name": "probation_time",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please consult with your mentor or Chair ECE"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522178705,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "75958566-cb28-4274-8da0-34a9d7e77f71",
+    "data": [
+      {
+        "text": "Why probation students got advised at last?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522178705
+  }
+][
+  {
+    "id": "63154dc0-2790-45a6-a158-b7018187990a",
+    "data": [
+      {
+        "text": "how to get over from probation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523020773
+  },
+  {
+    "id": "52fb1d1c-642d-458e-8862-b8871d50f152",
+    "data": [
+      {
+        "text": "how to remove probation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523020773
+  },
+  {
+    "id": "34e62a25-4c81-483b-8a09-d55deada207c",
+    "data": [
+      {
+        "text": "what is probation?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522178644
+  },
+  {
+    "id": "6c1d4208-bbad-420c-8752-fa3018aa681d",
+    "data": [
+      {
+        "text": "how can i remove probation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523722119
+  }
+]{
+  "id": "49ff367c-c521-4198-a461-900f9e46ac40",
+  "name": "prob_com1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You have to bring your guardian and process your paper with undertaking. Consult with your mentor or Chair ECE to retake the courses"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522178732,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "3fde4aef-c839-4deb-91ba-b436122a05d6",
+    "data": [
+      {
+        "text": "What is the procedure of doing advising after getting into probation?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522178732
+  }
+]{
+  "id": "19c964c3-a6bd-4376-97ab-00823e615d24",
+  "name": "proctor_details",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It is in Register Building.\\nFor details go to http://www.northsouth.edu/proctoroffice/"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523646294,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "b1f58d2d-4d36-47b3-9687-26da55354421",
+    "data": [
+      {
+        "text": "where is the proctor office ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523018897
+  },
+  {
+    "id": "c89d627c-83fc-495e-a89d-14a3be23d637",
+    "data": [
+      {
+        "text": "how can i go to proctor office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523018897
+  }
+]{
+  "id": "872e5d53-8ca1-42d4-b364-1d25cc8dd2ee",
+  "name": "register_exam_controler_office",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Admin building 3rd floor."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523019403,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "ddd98dd7-f30a-4429-abdc-5fd8ebc908ec",
+    "data": [
+      {
+        "text": "where is the exam controller office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523019403
+  },
+  {
+    "id": "110b5971-a9a3-4343-8850-de69b27a7675",
+    "data": [
+      {
+        "text": "where is the register office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523019403
+  },
+  {
+    "id": "0079167a-d371-445d-a491-76e453264aba",
+    "data": [
+      {
+        "text": "where is the accounts office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523019403
+  }
+]{
+  "id": "25286a21-c0b3-4ba5-b036-edbfb5efacf5",
+  "name": "resource_lib_center",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "To get variety collection of reference books and materials"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522177299,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "871e9e69-bcb4-4bda-8556-2f009ed6605b",
+    "data": [
+      {
+        "text": "What is resource library center for?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522177299
+  }
+]{
+  "id": "b9921c12-b6d2-45c7-91d5-ba71c97811d3",
+  "name": "retake_F",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "F means fail, you have to pass in respective courses to fulfill the requirement of degree"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522177734,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "e14ccef4-3466-4e7f-b5f3-898a4f1bb2fd",
+    "data": [
+      {
+        "text": "How many times can we take F course?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522177734
+  }
+]{
+  "id": "eec72e89-2336-43d5-bb78-d2a29d067f2b",
+  "name": "sign_earlier",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "In pre advising system"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522177016,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "296b31a1-ccdc-4c82-b138-d36aae797ebe",
+    "data": [
+      {
+        "text": "Since section of elective courses are limited every semester, is there any way to sign up earlier for those courses?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522177016
+  }
+]{
+  "id": "939bcdd8-0e70-40c7-a8b5-cbb9b24b7e2e",
+  "name": "sign_what",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It is an intend sheet to get the preferred course."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523717819,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "7bd197b9-caa8-4eb6-9002-365d0b78667a",
+    "data": [
+      {
+        "text": "What is a sign-up sheet?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522177123
+  },
+  {
+    "id": "f2fb23fc-dd7e-497b-82e7-2eef3811f20f",
+    "data": [
+      {
+        "text": "What are the benefits of sign-up sheets?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523717819
+  }
+]{
+  "id": "a9006d40-7c2e-454d-94e9-8dce1670d1e9",
+  "name": "sign_where",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "At the respective department"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522177091,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "2fc3ae3d-493a-4ac9-a6be-276515847d05",
+    "data": [
+      {
+        "text": "From where can I find sign-up sheets for new courses?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522177091
+  }
+]{
+  "id": "fc5596a4-27ca-4bf6-9af3-92867117f1b1",
+  "name": "temp",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "i am Chatboot \u003cbr\u003eI am testing new line \u003cbr\u003e\n\u003ca href\u003d\"\\\\ece.northsouth.edu\"\u003ewww.facebook.com\u003c/a\u003e"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523242092,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "ffb116fd-ea6d-4e8b-a9db-686c2528e3f1",
+    "data": [
+      {
+        "text": "try",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523123349
+  }
+]{
+  "id": "471f0e44-9991-45f5-bd69-c8079cc6f2eb",
+  "name": "VLSI_job",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Need to take VLSI related course like CSE435/ETE412/EEE411"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522177638,
+  "fallbackIntent": false,
+  "events": []
+}[
+  {
+    "id": "48e4f302-d174-42c1-a428-2dd41f03e3aa",
+    "data": [
+      {
+        "text": "What courses should be taken if i want a job in VLSI?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522177638
+  }
+]
